@@ -50,6 +50,6 @@ plt.legend(title='Species')
 plt.grid(True)
 plt.show()
 
-# 输出解释方差比例（了解两个主成分保留信息量）
+# 输出解释方差比例
 print("Explained variance ratio:", pca.explained_variance_ratio_)
 print("Total variance explained by 2 PCs:", sum(pca.explained_variance_ratio_))
